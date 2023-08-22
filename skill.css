@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    height: 60vh;
+    width: 40%;
+    min-width: 570px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 50%;
+}
+
+.container {
+    width: 100%;
+    padding: 30px 30px 50px;
+    background:transparent;
+    border-radius: 10px;
+    margin: 5px;
+}
+.container * {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    color: aqua;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.details {
+    color: white;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+
+    border: 2px solid #0d96e0;
+
+    border-radius: 20px;
+
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: #0d96e0;
+
+
+}
+
+#html-bar {
+    animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+    100% {
+        width: 90%;
+    }
+}
+
+#css-bar {
+    animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#js-bar {
+    animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+    100% {
+        width: 72%;
+    }
+}
+
+#node-bar {
+    animation: node-fill 2s forwards;
+}
+
+@keyframes node-fill {
+    100% {
+        width: 70%;
+    }
+}
+#react-bar {
+    animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+    100% {
+        width: 65%;
+    }
+}
+
+#express-bar {
+    animation: express-fill 2s forwards;
+}
+
+@keyframes express-fill {
+    100% {
+        width: 70%;
+    }
+}
+#mongodb-bar {
+    animation: mongodb-fill 2s forwards;
+}
+
+@keyframes mongodb-fill {
+    100% {
+        width: 55%;
+    }
+}
+#c-bar {
+    animation: c-fill 2s forwards;
+}
+
+@keyframes c-fill {
+    100% {
+        width: 70%;
+    }
+}
+#python-bar {
+    animation:python-fill 2s forwards;
+}
+
+@keyframes python-fill {
+    100% {
+        width: 78%;
+    }
+}
+#java-bar {
+    animation:java-fill 2s forwards;
+}
+
+@keyframes java-fill {
+    100% {
+        width: 80%;
+    }
+}
+#cplus-bar {
+    animation:cplus-fill 2s forwards;
+}
+
+@keyframes cplus-fill {
+    100% {
+        width: 68%;
+    }
+}
+#Leadership-bar {
+    animation:Leadership-fill 2s forwards;
+}
+
+@keyframes Leadership-fill {
+    100% {
+        width: 48%;
+    }
+}
+#Communication-bar {
+    animation:Communication-fill 2s forwards;
+}
+
+@keyframes Communication-fill {
+    100% {
+        width: 48%;
+    }
+}
+#tw-bar {
+    animation:tw-fill 2s forwards;
+}
+
+@keyframes tw-fill {
+    100% {
+        width: 48%;
+    }
+}
+
+/* responsive */
+@media screen and (max-width:700px) and (min-width:250px){
+    body{
+        background: #081b29;
+    }
+    .home-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+        margin-bottom: 5%;
+        height: 100vh;
+        width: 20%;
+        min-width: 200px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 40%;
+        top: 50%;
+    }
+    
+    .container {
+        width: 100%;
+        padding-top: 60%;
+        background:transparent;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .container * {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+    
+    h2 {
+        color: aqua;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    .skills:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .details {
+        color: white;
+    
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .bar {
+        position: relative;
+    
+        border: 2px solid #0d96e0;
+    
+        border-radius: 20px;
+    
+    }
+    
+    .bar div {
+        position: relative;
+        width: 0;
+        height: 9px;
+        border-radius: 10px;
+        background-color: #0d96e0;
+    
+    
+    }
+}
