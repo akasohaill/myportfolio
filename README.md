@@ -1,2 +1,2 @@
 # myportfolio
-link: https://akasohail.netlify.app
+link: https://akasohaill.netlify.app
